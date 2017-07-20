@@ -1,133 +1,123 @@
-/*CSS for HomePage*/
-
 @import url(bootstrap.min.css);
 
+/*main{
+     margin: 0;
+     padding-right: 20px;
+     padding-left: 20px; 
+     border: 10px;
+ }*/
+
 body{
-     margin: 0px;
-     padding: 0;
-     border: 0;
-     background-color: #FAF0E6;
+	/*background-color: #EFF7F5;*/
 }
 
-#header{
-text-align: center;
-background-color: #DB7093;
-background-image: url(../img/Logo.jpg);
-background-size: 100px 100px;
-height: 80px;
-width: 100%;
-opacity: 0.2;
-}
+.navbar{
 
-#logo{
-	width: 100px;
-	height: 70px;
-	float: left;
-	text-align: center;
+	margin-bottom: 0;
+	border-radius: 0;
 	background-color: white;
+	/*border-color: purple;*/
 }
 
-#logo img{
-	/*float: left;*/
-	height: 70px;
-	/*padding: 20px;*/
-
+.navbar-inner {
+min-height: 140px; /* change value here to modify height of navbar*/
 }
 
-#header form{
-	float: right;
-	padding: 20px;
-	height: 20px;
+.navbar-brand{
+	font-family: cursive;
 }
 
-#header img{
-	height: 90px;
-	padding: 20px 60px;
-	text-align: center;
+.collapse ul{
+	padding-top: 40px;
+	
 }
 
-nav{
-	background-color: #C71585;
-	height: 70px;
-	text-align: center;
-	width: 100%;	
-}
-
-nav ul{
-display: inline-block;
+.collapse ul a{
+	color: white;
+	font-family: cursive;
 
 }
 
-nav ul li{list-style: none;display: inline;margin: 10px 30px;}
-
-nav ul li a{
-
-	color: #FFF;
-	text-decoration: none;
+.btn{
+	border-radius: 20px; /*makes the donate button rounded*/
 }
 
-#gallery-section{
-
-	background-color: #FAF0E6;
-	text-align: center;
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: purple;
 }
 
-#gallery-section img{
-
+.slider img{
 	width: 100%;
-	height: 450px;
-   /*padding: 7px;*/
-   
 }
 
-#subscribe-area1{
-border-spacing: 10px;
-/*background-color: #FFB6C1;*/
+/*Changing carousel height below*/
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  max-height: 500px;    /* Set slide height here */
 
 }
+/*Changing carousel height above*/
 
-#subscribe-area2{
-
-/*background-color: #FFB6C1;*/
+/*Changing carousel height below*/
+/*.carousel .item {
+  height: 300px;
 }
 
-/*section > #subscribe-area1,section > #subscribe-area2{
-width: 50%;
-height:70px;
-float: left;
+.item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 300px;*/
+}
+/*Changing carousel height above*/
 
+/*.container .col-md-6 img{
+	float: left;
 }*/
 
-
-#donate-line{
-
-height: 70px;
-background: #D8BFD8;
-text-align: center;
-padding-top: 10px;
-
+.col-md-3{
+	/*padding: 0;*/
 }
+#object1,#object2,#object3,#object4{
 
-#donate-line a{
-font-size: 40px;
-color: black;
-font-weight: 700;
-
-}
-
-
-footer{
-
-	background-color: #DB7093;
 	width: 100%;
-	height: 70px;
+	height: 300px;
+	float: left;
 }
 
 
+#object1{
+	/*background-color: #EFF7F5;*/
+	text-align: center;
+}
 
-/*CSS for Who We Are Page*/
+#object2{
+	/*background-color: #EFF7F5;*/
+	text-align: center;
+}
+#object3{
+	/*background-color: #EFF7F5;*/
+	text-align: center;
+}
 
+#object4{
+	/*background-color: #EFF7F5;*/
+	text-align: center;
+}
+footer{
+	width: 100%;
+	/*height: 300px;*/
+	padding: 100px 0;
+	background-color: purple;
+	float: left;
+}
 
+.panel-body{
+	color: purple;
+}
 
+footer .col-md-6 li{
 
+	color: white;
+}
 
