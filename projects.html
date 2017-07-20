@@ -8,8 +8,11 @@
 <body>
 
 <main>
-	
-	<nav class="navbar navbar-inner navbar-light navbar-default" role="navigation">
+
+
+
+
+	<nav class="navbar navbar-inner navbar-light navbar-default " role="navigation">
 		<div class="navbar-header">
 			<button type="button" class="navbar-toggle" data-toggle="collapse"
 				data-target="#example-navbar-collapse">
@@ -26,17 +29,78 @@
 				<li ><a href="about.html">About</a></li>
 				<li ><a href="projects.html">Projects & Events</a></li>
 				<li ><a href="support.html">Get Involved</a></li>
-				<li><a href="#">Contact</a></li>
-				<li><button type="button" class="btn btn-primary btn-lg"><a href="#">Donate</a></button></li>
+				<!-- <li><a href="#">Contact</a></li> -->
+<!-- 				<li><button type="button" class="btn btn-primary btn-lg"><a href="#">Donate</a></button></li> -->
+
+				<li>
+
+
+					<!-- Button trigger modal -->
+					<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+					  Contact
+					</button>
+
+					<!-- Modal -->
+					<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+					  <div class="modal-dialog" role="document">
+					    <div class="modal-content">
+					      <div class="modal-header">
+					        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					        <h4 class="modal-title" id="myModalLabel">Contact Us :)</h4>
+					      </div>
+					      <div class="modal-body">
+					        
+					 <form action="process.php" method="post">
+					       <b>We would like to hear from you!</b><br><br>
+					       <input type="text" name="full name" placeholder="Your Name">
+					       <br><br>
+
+					      
+					       <input type="email" name="email" placeholder="Your Email">
+					       <br><br>
+					          <input type="text" name="subject" placeholder="Subject">
+					       <br><br>
+
+					       
+					        <textarea name="profile" rows="10" cols="50" maxlength="100" placeholder="Your Message"></textarea>
+					        <br><br>
+
+					       </form>
+
+					      </div>
+					      <div class="modal-footer">
+
+					<div class="col-md-6 col-md-offset-3" style="text-align: center;"> 
+							<ul class="list-inline">
+								<li><p>Facebook</p></li>
+								<li><p>Twitter</p></li>
+								<li><p>Instagram</p></li>
+							</ul>
+						</div>
+
+					        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					        <button type="button" class="btn btn-primary">Send</button>
+					      </div>
+					    </div>
+					  </div>
+					</div>
+
+
+				</li>
+
+
+				<li><button type="button" class="btn btn-primary btn-lg "><a href="#">Donate</a></button></li>
+
 
 			</ul>
 		</div>
 	</nav>	
+	
+ 
 
 
 
-
-<footer>
+<!-- <footer>
 <div class="container panel panel-default col-md-6 col-md-offset-3">
 <div class="panel-body">
  		<ul class="list-inline">
@@ -55,7 +119,7 @@
 			<li><p>Instagram</p></li>
 		</ul>
 	</div>
-</footer>
+</footer> -->
 
 </main>
 

@@ -39,11 +39,12 @@ min-height: 140px; /* change value here to modify height of navbar*/
 }
 
 .btn{
-	border-radius: 20px; /*makes the donate button rounded*/
+	/*border-radius: 20px; *//*makes the donate button rounded*/
 }
 
 .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
     background-color: purple;
+   /* color: black;*/
 }
 
 .slider img{
