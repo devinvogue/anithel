@@ -1,4 +1,5 @@
 @import url(bootstrap.min.css);
+@import url(font-awesome.min.css);
 
 /*main{
      margin: 0;
@@ -23,8 +24,14 @@ body{
 min-height: 140px; /* change value here to modify height of navbar*/
 }
 
+.navbar-default .navbar-brand {
+    color: purple;
+}
+
 .navbar-brand{
 	font-family: cursive;
+	font-size: 40px;
+    line-height: 1px;
 }
 
 .collapse ul{
