@@ -15,11 +15,16 @@
     <div class="container">
        <div class="logo_wrapper">
        	   <ul class="list-unstyled">
-       	   	  <li> <a class="" href="index.html"><img src="img/Logo.jpg" class="d-inline-block align-top" alt=""></a></li>
+       	   	  <li style="color: #9e098a;"> <a  href="index.html"><img src="img/Logo.jpg" class="d-inline-block align-top" alt=""></a></li>
        	   	  <li><p style="font-family:'TimelessBD'; color: #9e098a; font-size: 1.2em;">SEED OF HOPE FOUNDATION</p></li>
        	   </ul>
+
        </div>
 	</div>
+
+
+
+
 	<nav class="navbar navbar-inner navbar-light navbar-default " role="navigation">
 
 		<div class="navbar-header">
@@ -29,20 +34,15 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
-			</button>
-			
+			</button>			
 		</div>
 		<div class="collapse navbar-collapse" id="example-navbar-collapse">
-		   
-		    <!-- shows when the width is large  -->
 			<ul class="nav navbar-nav"> <!-- use "pull-right" to position Home,Contact and About to the right-->
 				<li class="active"><a href="index.html"><!-- <i class="fa fa-home fa-2x" aria-hidden="true"></i> -->Home</a></li>
 				<li ><a href="about.html">About</a></li>
-				<li ><a href="projects.html">Projects & Events</a></li>
-				<li ><a href="support.html">Get Involved</a></li>
-				<!-- <li><a href="#">Contact</a></li> -->
+				<li ><a href="work.html">Our Work</a></li>
+				<li ><a href="involve.html">Get Involved</a></li>
 <!-- 				<li><button type="button" class="btn btn-primary btn-lg"><a href="#">Donate</a></button></li> -->
-
 				<li>
 
 					<!-- Button trigger modal -->
@@ -60,61 +60,63 @@
 					      </div>
 					      <div class="modal-body">
 					        
-					 <form action="process.php" method="post">
-					       <b>We would like to hear from you!</b><br><br>
-					       <input type="text" name="full name" placeholder="Your Name">
-					       <br><br>
+								<form>
+								 <div class="form-group">
+								    <label for="exampleInputName1">Fullname</label>
+								    <input type="text" class="form-control" id="exampleInputName1" placeholder="Your Fullname">
+								  </div>
+								  <div class="form-group">
+								    <label for="exampleInputEmail1">Email address</label>
+								    <input type="email" class="form-control" id="exampleInputEmail1" placeholder=" Your Email">
+								  </div>
+								  <div class="form-group">
+								    <label for="exampleInputSubject1">Subject</label>
+								    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Subject">
+								  </div>
+								  <textarea class="form-control" rows="10" placeholder="Your Message"></textarea><br>
+								  <button type="submit" class="btn btn-default">Submit</button>
+								  Contact us on:
 
-					      
-					       <input type="email" name="email" placeholder="Your Email">
-					       <br><br>
-					          <input type="text" name="subject" placeholder="Subject">
-					       <br><br>
-
-					       
-					        <textarea name="profile" rows="10" cols="50" maxlength="100" placeholder="Your Message"></textarea>
-					        <br><br>
-
-					       </form>
+								  <!-- <div class="form-group">
+								    <label for="exampleInputFile">File input</label>
+								    <input type="file" id="exampleInputFile">
+								    <p class="help-block">Example block-level help text here.</p>
+								  </div>
+								  <div class="checkbox">
+								    <label>
+								      <input type="checkbox"> Check me out
+								    </label>
+								  </div> -->
+								 
+								</form>
 
 					      </div>
 					      <div class="modal-footer">
 
-					<div class="col-md-6 col-md-offset-3" style="text-align: center;"> 
-							<ul class="list-inline">
-								<li><a href="https://www.facebook.com/sopghana/"><p style="color: blue;"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></p></a></li>
-								<li><a href="#"><p style="color: #1690f1;"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></p></a></li>
-								<li><a href="#"><p style="color: #3c383b;"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></p></a></li>
-							</ul>
-						</div>
+								<div class="col-md-6 col-md-offset-3" style="text-align: center;"> 
+										<ul class="list-inline">
+											<li><a href="https://www.facebook.com/sopghana/"><p style="color: blue;"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></p></a></li>
+											<li><a href="#"><p style="color: #1690f1;"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></p></a></li>
+											<li><a href="#"><p style="color: blue;"><i class="fa fa-envelope-o fa-2x" aria-hidden="true"></i></p></a></li>
+										</ul>
+								</div>
 
-					        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-					        <button type="button" class="btn btn-primary">Send</button>
+					        	<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					       		<!-- <button type="button" class="btn btn-primary">Send</button> -->
 					      </div>
 					    </div>
 					  </div>
 					</div>
 
-
 				</li>
-
                    
 				<li><button type="button" class="btn btn-primary btn-lg"><a
 				style="color:#FFF;" href="#">Donate</a></button></li>
 
-
 			</ul>
-
-
 
 		</div>
 	</nav>	
-
-
-
-
-
-
 
 
 
@@ -212,8 +214,8 @@
  		<ul class="list-inline">
  			<li><a href="index.html" style="color: purple;">Home</a></li>
 			<li><a href="about.html" style="color: purple;">About</a></li>
-			<li><a href="projects.html" style="color: purple;">Projects & Events</a></li>
-			<li><a href="support.html" style="color: purple;">Get Involved</a></li>
+			<li><a href="work.html" style="color: purple;">Our Work</a></li>
+			<li><a href="involve.html" style="color: purple;">Get Involved</a></li>
 			<li><a href="#" style="color: purple;">Contact</a></li>
 		</ul>
 </div>
@@ -222,9 +224,14 @@
 		<ul class="list-inline">
 			<li><a href="https://www.facebook.com/sopghana/"><p style="color: white;"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></p></a></li>
 			<li><a href="#"><p style="color: #1690f1;"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></p></a></li>
-			<li><a href="#"><p style="color: white;"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></p></a></li>
+			<li><a href="#"><p style="color: white;"><i class="fa fa-envelope-o fa-2x" aria-hidden="true"></i></p></a></li>
 		</ul>
+		<ul style="display: inline; list-style: none;">
+	   	    <li><h3>Seed of Hope Foundation</h3></li>
+	   	    <li>&copy;2017 | All Rights Reserved</li>
+   	    </ul>
 	</div>
+
 </footer>
 
 

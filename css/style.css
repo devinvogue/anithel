@@ -34,7 +34,7 @@
  }*/
 
 body{
-	/*background-color: #EFF7F5;*/
+/*	background-color: #EFF7F5;*/
 }
 
 .logo_wrapper{
@@ -42,6 +42,8 @@ body{
 	float: left;
 	background-color: white;
 	height:120px;
+	font-size: 1em;
+	font-family: "TimelessBD";
 	text-align: center;
 }
 
@@ -118,6 +120,7 @@ body{
 .slider img{
 	width: 100%;
 }
+
 
 /*Changing carousel height below*/
 .carousel-inner > .item > img,
