@@ -193,3 +193,7 @@ footer .col-md-6 li{
 	color: white;
 }
 
+.form-control{
+	width: 60%;
+	/*background-image: url("img/seed.jpg");*/
+}
