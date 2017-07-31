@@ -34,8 +34,8 @@ body{
 
 .logo_wrapper{
 	width: 100%;
-	float: left;
-	background-color: white;
+	/*float: left;*/
+	/*background-color: white;*/
 	height:120px;
 	font-size: 1em;
 	font-family: "TimelessBD";
