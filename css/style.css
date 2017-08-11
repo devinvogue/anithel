@@ -31,14 +31,16 @@
 body{
 /*	background-color: #EFF7F5;*/
 color: black;
+font-size: 16px;
+
 }
 
 .logo_wrapper{
 	width: 100%;
 	/*float: left;*/
 	/*background-color: white;*/
-	height:120px;
-	font-size: 1em;
+	height:122px;
+	font-size: 1.2em;
 	font-family: "TimelessBD";
 	text-align: center;
 }
@@ -49,6 +51,14 @@ color: black;
     }
 }
 
+#myModalLabel{
+	font-family: "TimelessBD";
+	color: #9e098a;
+	text-align: center;
+}
+.modal-body{
+ text-align: -webkit-center;
+}
 
 
 .navbar-default .navbar-nav>li>a,.navbar-nav>li>button{
@@ -69,9 +79,9 @@ color: black;
 /* change value here to modify height of navbar*/
 }
 
-.navbar-default .navbar-brand {
+/*.navbar-default .navbar-brand {
     color: #9e098a;
-}
+}*/
 
 .navbar-default .navbar-nav>li>a{
 	color:#000;
@@ -131,6 +141,8 @@ color: black;
 /*.container .col-md-6 img{
 	float: left;
 }*/
+
+
 
 .col-md-3{
 	/*padding: 0;*/
