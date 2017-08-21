@@ -116,6 +116,12 @@ font-size: 16px;
 	width: 100%;
 }
 
+.carousel-caption{
+	/*color: #9e098a;*/
+	/*background-color: white;*/
+	/*opacity: 0.55;*/
+	text-shadow:0 8px 8px rgba(0,0,0,.6);
+}
 
 /*Changing carousel height below*/
 .carousel-inner > .item > img,
