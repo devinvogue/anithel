@@ -198,6 +198,10 @@ footer .col-md-6 li{
 }
 
 .form-control{
-	width: 60%;
+	width: 70%;
 	/*background-image: url("img/seed.jpg");*/
 }
+.contact_form .form-control{
+	width:100%;
+}
+
